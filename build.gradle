@@ -12,6 +12,8 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.3.2'
+    testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '3.3.2'
 }
 
 test {
